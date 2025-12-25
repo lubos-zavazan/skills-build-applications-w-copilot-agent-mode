@@ -1,5 +1,3 @@
-import React, { useEffect, useState } from 'react';
-
 const Workouts = () => {
   const [workouts, setWorkouts] = useState([]);
   const apiUrl = `https://${process.env.REACT_APP_CODESPACE_NAME}-8000.app.github.dev/api/workouts/`;
